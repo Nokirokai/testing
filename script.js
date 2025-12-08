@@ -518,3 +518,7 @@ if (petCards.length > 0) {
         });
     });
 }
+
+document.querySelector('.btn-primary').addEventListener('click', function() {
+    window.location.href = this.getAttribute('data-href');
+});
